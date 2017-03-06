@@ -2,3 +2,5 @@ sudo: false
 language: java
 jdk:
 - oraclejdk8
+
+script: bundle exec gradlew build
